@@ -46,6 +46,11 @@
     border:none;
     outline:none;
 }
+
+.stats{
+    width:100%;
+    justify-content:space-between;
+}
 /* right section innit */
 .image-container{
     width:30rem;

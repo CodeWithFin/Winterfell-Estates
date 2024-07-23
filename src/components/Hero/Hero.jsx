@@ -32,6 +32,20 @@ const Hero = () => {
               <span>Premium Products</span>
             </div>
           </div>
+
+          <div className="flexCenter stats">
+            <div className="flexColStart stat">
+              <span><CountUp start={1950} end={2000}duration={4} /> </span>
+              <span>Happy Customers</span>
+            </div>
+          </div>
+
+          <div className="flexCenter stats">
+            <div className="flexColStart stat">
+              <span><CountUp end={28} /> </span>
+              <span>Award Winning</span>
+            </div>
+          </div>
         </div>
 
         <div className="flexCenter hero-right">
